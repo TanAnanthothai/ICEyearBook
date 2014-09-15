@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="crimson">#8f1f22</color>
+    <color name="gray">#dedede</color>
+    <color name="dark_gray">#282828</color>
+    <color name="black">#474747</color>
+    <color name="white">#fbfbfb</color>
+    <color name="light_gray">#ededed</color>
+    <color name="light_text">#bdbdbd</color>
+	<color name="strong_text">#464646</color>
+	<color name="white_transparent">#50fbfbfb</color>
+</resources>

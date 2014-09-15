@@ -1,0 +1,552 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iceyearbook.IceYearBook" >
+<ScrollView 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+<LinearLayout 
+     android:id="@+id/iceyearbook"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+   
+    1st Blog
+    <LinearLayout   
+        android:id="@+id/linearimage"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice1"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice1" />  
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText1"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText1"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText2"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText2"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/>
+    
+     <!-- 2nd Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice2" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText3"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText3"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText4"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText4"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+     <!-- 3rd Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice3"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice3" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText5"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText5"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText6"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText6"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+     <!-- 4th Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice4"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice4" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText7"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText7"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText8"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText8"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+    <!-- 5th Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice5"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice5" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText9"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText9"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText10"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText10"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+    <!-- 6th Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice6"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice6" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText11"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText11"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText12"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText12"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+    <!-- 7th Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice7"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice7" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText13"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText13"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText14"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText14"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+    
+    <!-- 8th Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice8"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice8" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText15"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText15"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText16"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText16"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+    <!-- 9th Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice9"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice9" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText17"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText17"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText18"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText18"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+    <!-- 10th Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice10"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice10" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText19"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText19"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText20"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText20"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+     <!-- 11st Blog
+     -->
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/container_dropshadow"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+        <ImageView
+            android:id="@+id/ice11"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:paddingTop="3dp"
+            android:paddingLeft="8dp"
+            android:src="@drawable/ice11" />
+         <LinearLayout   
+      		    android:layout_width="match_parent"
+     		    android:layout_height="130dp"
+     		    android:background="#fbfbfb"
+    		    android:orientation="vertical"
+    		    android:paddingBottom="2dp" >
+      		  	<TextView
+      		      	android:id="@+id/blogText21"
+       		     	android:layout_width="fill_parent"
+       		     	android:layout_height="wrap_content"
+            		android:paddingTop="5dp"
+            		android:paddingRight="8dp"
+            		android:paddingLeft="14dp"
+            		android:textSize="28sp"
+           		 	android:text="@string/blogText21"
+            		android:textColor="@color/strong_text" />
+        		<TextView
+            		android:id="@+id/blogText22"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:paddingLeft="14dp"
+            		android:paddingTop="2dp"
+            		android:textSize="20sp"
+            		android:text="@string/blogText22"
+            		android:textColor="@color/light_text" />
+    	</LinearLayout>
+    	</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"/> 
+        
+    
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

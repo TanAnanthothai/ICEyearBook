@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ice YearBook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="blogText1">Marc Kunnapat</string>
+    <string name="blogText2">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+    <string name="blogText3">Pitcha Lertvinyu</string>
+     <string name="blogText4">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+     <string name="blogText5">Intouch Marsvongpragorn</string>
+    <string name="blogText6">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+    <string name="blogText7">Term Thanachote</string>
+     <string name="blogText8">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+     <string name="blogText9">Pun Sukasemsarn</string>
+    <string name="blogText10">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+    <string name="blogText11">Jeawy Jang</string>
+     <string name="blogText12">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+     <string name="blogText13">Ping Sukit</string>
+    <string name="blogText14">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+    <string name="blogText15">Benya Vachalathiti</string>
+     <string name="blogText16">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+   
+     <string name="blogText17">Peth Patcharapon</string>
+    <string name="blogText18">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+    <string name="blogText19">Siraphob Boonvanich</string>
+     <string name="blogText20">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+     <string name="blogText21">Sanyapong Jirathanapin</string>
+    <string name="blogText22">ID : 5631234567 \nAblout me: I am a student in the Intro to ICE class!</string>
+   
+     
+</resources>
